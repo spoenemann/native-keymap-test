@@ -7,7 +7,11 @@
     "electron": "2.0.14",
     "native-keymap": "^1.2.5"
   },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.4"
+  },
   "scripts": {
+    "postinstall": "electron-rebuild",
     "start": "electron ."
   }
 }
