@@ -1,12 +1,13 @@
 {
   "name": "native-keymap-test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "license": "MIT",
   "dependencies": {
+    "electron": "2.0.14",
     "native-keymap": "^1.2.5"
   },
   "scripts": {
-      "start": "node index"
+    "start": "electron ."
   }
 }
